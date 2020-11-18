@@ -5,6 +5,12 @@ services:
   - mysql
   - postgresql
 
+os: linux
+
+arch:
+ - amd64
+ - ppc64le
+
 env:
   - LUA="5.1"
   - LUA="5.2"
